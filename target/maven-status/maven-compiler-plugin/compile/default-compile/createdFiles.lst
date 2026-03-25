@@ -1,2 +1,3 @@
-com/busquedas/Binario.class
-com/busquedas/Lineal.class
+com/busquedas/BusquedaBinaria.class
+com/busquedas/BusquedaLineal.class
+com/busquedas/Benchmark.class
