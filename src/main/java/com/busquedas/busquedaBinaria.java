@@ -61,7 +61,7 @@ class Binario {
 
         for (int i = 0; i < fil; i++) {
             for (int j = 0; j < col; j++) {
-                mat[i][j] = numGen.nextInt(1001);
+                mat[i][j] = numGen.nextInt(1000001);
             }
         }
 

@@ -24,7 +24,7 @@ class Lineal {
         );
         for (int i = 0; i < fil; i++) {
             for (int j = 0; j < col; j++) {
-                matriz[i][j] = numGen.nextInt(1000) + 1;
+                matriz[i][j] = numGen.nextInt(1000001);
                 System.out.print("\t" + matriz[i][j] + " ");
             }
             System.out.println();
