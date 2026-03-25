@@ -21,10 +21,13 @@ class Binario {
         int[][] matriz = arrSetup(fil, col);
 
         System.out.print("\n" + "Numero a buscar: ");
-        System.out.println(
-            "Numero encontrado en la posicion: " +
-                busquedaBin(sc.nextInt(), matriz)
-        );
+        int resultado = busquedaBin(sc.nextInt(), matriz);
+        if (resultado == -1) {
+            System.out.println("Numero no esta en la matriz.");
+            sc.close();
+            System.exit(resultado);
+        }
+        System.out.println("Numero encontrado en la posicion: " + resultado);
 
         sc.close();
     }
