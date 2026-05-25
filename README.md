@@ -1,6 +1,6 @@
 # Lab1-prog-avanzada
 
-Se tomaron dos ejercicios como se habia instruido. Cada uno esta en su respectiva carpeta y los documentos estan en la carpeta Docs.
+Se tomaron dos ejercicios como se habia instruido. Cada uno esta en su respectiva carpeta, el documento que resume lo hecho esta en Docs/
 
 Busquedas (Ejercicio C, En la carpeta Busquedas):
 Dos clases que tienen el mismo objetivo de buscar un numero en un array 2d pero hecho de distintas maneras. Busqueda lineal/iterativa y busqueda Binaria.
