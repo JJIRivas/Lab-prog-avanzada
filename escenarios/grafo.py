@@ -115,7 +115,7 @@ def visualizar(visitados=None, camino=None, costo=None, nombre_algoritmo=""):
 
     titulo = nombre_algoritmo
     if camino:
-        titulo += f"Costo: {costo}  |  Visitados: {visitados}"
+        titulo += f"Costo: {costo}  Visitados: {visitados}"
     elif visitados is not None:
         titulo += "Sin camino"
     ax.set_title(titulo, fontsize=11, pad=12)
