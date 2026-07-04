@@ -1,15 +1,23 @@
+import incidentRepo
+from fileHandlers import fileBrowser, parserSelector
 from ui import MainApplication
 
 
-def main():
-    # Instantiate the UI
-    app = MainApplication()
+class main:
+    def __init__(self):
+        self.app = MainApplication()
+        self.browseFile = fileBrowser.browseFile
+        self.parserChooser = parserSelector.getParser
+        self.app.sidebar.fileBtn.config(command=self.fileImporting)
 
-    # 💡 This is where you can easily bind commands later!
-    # Example: app.sidebar.csvBtn.config(command=your_browser_function)
+        self.app.mainloop()
 
-    # Run the Tkinter mainloop
-    app.mainloop()
+    def fileImporting(self):
+        incidentDB = incidentRepo.IncidentRepo()
+        fp = fileBrowser.browseFile()
+        if fp:
+            parser = parserSelector.getParser(fp)
+            incidentDB.load(parser, fp)
 
 
 if __name__ == "__main__":

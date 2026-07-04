@@ -1,5 +1,6 @@
 import tkinter as tk
-from tkinter import ttk
+from pathlib import Path
+from tkinter import filedialog, messagebox, ttk
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -58,15 +59,16 @@ class Sidebar(tk.Frame):
 
         self.columnconfigure(0, weight=1)
         self.rowconfigure((0, 1, 2), weight=1)
+        self.rowconfigure(3, weight=10)
 
-        self.csvBtn = ttk.Button(self, text="Import CSV")
-        self.csvBtn.grid(row=0, column=0, pady=10)
+        self.fileBtn = ttk.Button(self, text="Import File")
+        self.fileBtn.grid(row=0, column=0, pady=1)
 
         self.addIncidentBtn = ttk.Button(self, text="Add Incident")
-        self.addIncidentBtn.grid(row=1, column=0, pady=10)
+        self.addIncidentBtn.grid(row=1, column=0, pady=1)
 
         self.seeHistoryBtn = ttk.Button(self, text="Incident History")
-        self.seeHistoryBtn.grid(row=2, column=0, pady=10)
+        self.seeHistoryBtn.grid(row=2, column=0, pady=1)
 
 
 class MainApplication(tk.Tk):
