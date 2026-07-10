@@ -6,7 +6,7 @@ from tkinter import filedialog, messagebox
 # no esta en el archivo de UI porque maneja mas cercanamente con archivos, por lo que creo que es mas relevante dejarla en fileHandlers.
 def browseFile() -> Path | None:
     rawPath = filedialog.askopenfilename(
-        initialdir="/home/gyga/Downloads",  # Se coloco root, aunque idealmente deberia cambiarse a /home/$USER/... no estoy seguro como si. Ademas, si se corre en Windows o Mac puede ser diferente. Es cosa de cambiar la ruta de inicio simplemente.
+        initialdir="/",  # Se coloco root, aunque idealmente deberia cambiarse a /home/$USER/... no estoy seguro como si. Ademas, si se corre en Windows o Mac puede ser diferente. Es cosa de cambiar la ruta de inicio simplemente.
         title="Selecciona un archivo",
         filetypes=(("CSV document", "*.csv"), ("JSON document", "*.json")),
     )
