@@ -28,7 +28,16 @@ $ python3 benchmark.py
 ## Media
 
 ### Inicio programa
+<img width="1920" height="1080" alt="proyecto2" src="https://github.com/user-attachments/assets/db27dd26-bcd7-4c95-ace0-b7e5d9bbeb43" />
+
 ### Seleccion de un archivo
+<img width="1918" height="1066" alt="proyecto3" src="https://github.com/user-attachments/assets/d1c6a863-6420-4ab1-9494-60ef49a7b20a" />
+
 ### Vista con todos los archivos cargados
+<img width="1909" height="1058" alt="proyecto1" src="https://github.com/user-attachments/assets/f488dd17-9586-486c-9519-cafcd7f52b98" />
+
 ### Video de muestra de la ejecucion
-![alt-text][media/videoDemostracion.mp4]
+
+https://github.com/user-attachments/assets/0d398207-b8a9-4aaa-aa5c-22c538ea3b96
+
+
