@@ -31,3 +31,4 @@ $ python3 benchmark.py
 ### Seleccion de un archivo
 ### Vista con todos los archivos cargados
 ### Video de muestra de la ejecucion
+![alt-text][media/videoDemostracion.mp4]
